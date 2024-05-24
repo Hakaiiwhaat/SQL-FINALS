@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+.transBg{
+    z-index: 100;
+    background-color: #fffbfb7c;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.welcome {
+    position: relative !important;
+    width: fit-content !important;
+}
+
+
+.abs {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.abs img {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    height: 6em;
+    width: 100%;
+    background-color: rgb(250, 57, 57);
+    align-items: center;
+    justify-content: center;
+    z-index: 998;
+}
+
+
+.menu {
+    left: 5em;
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bar {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+  }
+
+/* .menuBar {
+    display: none;
+}
+
+.menuBar.active {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    z-index: 400;
+    position: fixed;
+    margin: 0;
+    display: block;
+    float: left;
+    background-color: #3D3B40;
+    width: 20em;
+    height: 100%;
+    top: 6em;
+    overflow-y: auto;
+}
+
+.menuBar ul {
+    position: relative;
+    top: 2em;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menuBar ul li {
+    padding: 20px 0;
+}
+
+.label {
+    position: relative;
+    left: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    color: rgb(255, 153, 0);
+    padding-bottom: 0;
+} */
+
+.subs {
+    margin-top: -2em;
+}
+
+.menuBar ul li a {
+    padding-left: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: white;
+}
+
+.tcuLogo {
+    position: relative;
+    display: flex;
+    margin: auto;
+    top: 2em;
+    width: 10em;
+    height: 10em;
+}
+
+.breaker {
+    border : 1px solid white;
+    margin-bottom : 5px;
+    }
+
+.title {
+    color: white;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.table-responsive {
+    position: relative;
+    top: 2em !important;
+    height: 120vh !important;
+    overflow-y: auto;
+}
+
+#studTable {
+    z-index: 300;
+    width: 80vw;
+    border: 1px solid black;
+    position: relative;
+    color: white;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: #3D3B40;
+    font-family: Arial, Helvetica, sans-serif !important;
+    box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    top: -2em;
+    border:10px solid rgb(250, 57, 57);
+    margin-bottom: 10em;
+}
+#studTable th {
+    height: 3em;
+    font-size: 1.2em;
+    border-bottom-width: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#studTable td {
+    height: 2em;
+}
+
+#studTable th {
+    align-items: center;
+    text-align: center;
+    width: 15em;
+    border:solid rgb(250, 57, 57);
+}
+
+#studTable tr td{ 
+    border:2px solid rgb(250, 57, 57);
+}
+#studTable tr{ 
+    cursor: pointer;
+}
+#studTable tr.highlighted td {
+    border: 5px solid rgb(255, 255, 255);
+}
+.row {
+    position: relative;
+    top: -7em;
+}
+
+
+.row form {
+    position: fixed;
+    width: fit-content;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 300;
+    display: flex;
+    align-items: center;
+}
+
+.row input {
+    width: 15em;
+    border:3px solid rgb(250, 57, 57);
+}
+
+.row button {
+    background-color: rgb(250, 57, 57);
+    color: white;
+}
+
+.bar2 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20em;
+    height: 2em;
+    margin-right: 1em;
+    border:3px solid rgb(250, 57, 57);
+}
+
+.left {
+    text-align: left;
+    padding-left: .5em;
+    
+}
+
+
+.modal {
+    z-index: 300 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    --bs-modal-bg: #3D3B40 !important;
+    color: white;
+    top: 6em !important;
+    width: 100vw !important;
+}
+
+.modal-content {
+    border: 5px solid rgb(255, 255, 255) !important;
+    width: 100vw !important;
+}
+
+#studentDetails p{
+    font-size: 1em;
+}
+
+@media screen and (max-width: 400px) {
+
+    .welcome {
+        top: 8em !important;
+    }
+    .row {
+        position: relative;
+        top: -8em !important;
+    }
+    #studTable {
+        z-index: 300;
+        width: 80vw;
+        border: 1px solid black;
+        position: relative;
+        color: white;
+        margin: auto;
+        text-align: center;
+        border-collapse: collapse;
+        background-color: #3D3B40;
+        font-family: Arial, Helvetica, sans-serif !important;
+        box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+        top: -2em;
+        border:10px solid rgb(250, 57, 57);
+        margin-bottom: 5em;
+    }
+}

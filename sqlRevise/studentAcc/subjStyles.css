@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    display: flex;
+}
+
+.gray {
+    position: relative;
+    margin: auto;
+    top: 15em;
+    width: 100em;
+    height: 40em;
+    z-index: 2;
+}
+
+
+
+.sub {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    top: 10em;
+    margin-left: auto;
+}
+
+.subTitle {
+    text-align: center;
+    color: black;
+    font-size: 3em; 
+    top: 4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table {
+    table-layout: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    margin: auto;
+    width: 93%;
+    top: 1em;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    border:10px solid rgb(250, 57, 57);
+    height:35em;
+    margin-bottom: 20em;
+}
+
+th {
+    font-size: 1.5em;
+    background-color: #3D3B40;
+    border:solid rgb(250, 57, 57);
+    height: 3em;
+}
+
+table, td{
+    background-color: #3D3B40;
+    color: white;
+}
+
+table tr td{ 
+    border:2px solid rgb(250, 57, 57);
+}
+
+
+table .subName {
+    text-align: left;
+    padding-left: .5em;
+}
+
+td {
+    height: 2em;
+}
+

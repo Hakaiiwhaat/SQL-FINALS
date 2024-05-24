@@ -1,0 +1,139 @@
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.welcome {
+    z-index: 200;
+    position: relative;
+    width: 100%;
+    height: 20em;
+    margin: auto;
+    top: 10em;
+}
+
+.welc {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    font-size: 3em;
+}
+
+.row {
+    position: relative;
+    top: -4em;
+}
+
+.row form {
+    position: sticky;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 300;
+    display: flex;
+    align-items: center;
+}
+
+.row input {
+    width: 15em;
+    border:3px solid rgb(250, 57, 57);
+}
+
+.row button {
+    background-color: rgb(250, 57, 57);
+    color: white;
+}
+
+#studTable {
+    z-index: 200;
+    width: 85%;
+    border: 1px solid black;
+    position: relative;
+    color: white;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: #3D3B40;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    border:10px solid rgb(250, 57, 57);
+    top: 5em;
+    margin-bottom: 10em;
+}
+#studTable th {
+    height: 3em;
+    font-size: 1.2em;
+}
+#studTable td { 
+    height: 2em;
+    border: 1px solid rgb(250, 57, 57);
+}
+
+table tr, td{ 
+    border: 2px solid rgb(250, 57, 57);
+}
+
+#studTable th {
+    width: 15em;
+    border:solid rgb(250, 57, 57);
+}
+#studTable tr {
+    cursor: pointer;
+}
+#studTable tr.highlighted td {
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.left {
+    text-align: left;
+    padding-left: 1em;
+}
+
+.modal {
+    z-index: 300 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    --bs-modal-bg: #3D3B40 !important;
+    color: white;
+    top: 6em !important;
+    width: 100vw !important;
+}
+
+.modal-content {
+    border: 5px solid rgb(255, 255, 255) !important;
+    width: 100vw !important;
+}
+
+#studentDetails p{
+    font-size: 1em;
+}
+
+@media screen and (max-width: 400px) {
+
+    .welcome {
+        top: 8em !important;
+    }
+    .row {
+        position: relative;
+        top: -6em !important;
+    }
+    #studTable {
+        z-index: 300;
+        width: 80vw;
+        border: 1px solid black;
+        position: relative;
+        color: white;
+        margin: auto;
+        text-align: center;
+        border-collapse: collapse;
+        background-color: #3D3B40;
+        font-family: Arial, Helvetica, sans-serif !important;
+        box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+        top: -2em;
+        border:10px solid rgb(250, 57, 57);
+        margin-bottom: 5em;
+    }
+}

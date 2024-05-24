@@ -1,0 +1,381 @@
+
+
+.transBg{
+    z-index: 1;
+    background-color: #fffbfb7c;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.abs {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.abs img {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+
+.mainDiv {
+    z-index: 2;
+    top: 14em;
+    background-color: #3D3B40;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto; 
+    width: 80em;
+    height: 40em;
+    color: white;
+    box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+}
+
+.subHeader {
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    top: 7em;
+    margin-left: auto;
+    z-index: 2;
+}
+
+.subTit{
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.circle {
+    position: fixed;
+    background-image: url(account.png);
+    width: 10em;
+    height: 10em;
+    top: 15em;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 23px 2px #ff0000;
+    -moz-box-shadow: 0 0 23px 2px #ff0000;
+    box-shadow: 0 0 23px 2px #ff0000;
+}
+
+.fullName {
+    width: 70%;
+    top: 7em;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.div {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 5em;
+    text-align: center;
+    position: relative;
+    width: 40em;
+    margin: 0 auto;
+}
+
+.div input{
+    font-size: 100%;
+    width: 30%;
+}
+
+.form-control {
+    text-align: center;
+}
+
+.infos {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    justify-content: space-between;
+    width: 75%;
+    top: 11em;
+}
+
+
+.bg {
+    position: relative;
+    width: 15em;
+    height: 3em;
+    background-color: white;
+    color: black;
+    border:3px solid rgb(250, 57, 57);
+}
+
+.lName, .fName, .mName {
+    font-family: Georgia, 'Times New Roman', Times, serif;;
+    text-align: center;
+    height: 2em;
+    border:3px solid rgb(250, 57, 57);
+}
+
+.eMail, .phoNo, .studNo {
+    font-family: Georgia, 'Times New Roman', Times, serif;;
+    font-size: 1em;
+    height: 90%;
+    width: 14em;
+    border: none;
+    position: relative;
+    text-align: center;
+}
+
+.submit {
+    position: relative;
+    margin: 0 auto;
+    width: 8em;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(14, 212, 14) !important;
+    cursor: pointer;
+    top: 1em;
+}
+
+.submit:hover {
+    box-shadow: 7px 5px 56px -14px #15fd00 !important;
+}
+
+.submit:active {
+    transform: scale(0.97) !important;
+    box-shadow: 7px 5px 56px -10px #15fd00 !important;
+}
+
+.infos2 {
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    width: fit-content;
+    justify-content: space-between;
+    top: 9em;
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+}
+
+.infoDiv {
+    position: relative;
+    width: 20em;
+    height: 3em;
+}
+
+.emLabel {
+    position: relative;
+    top: 2em;
+    margin: auto;
+}
+
+.label2 {
+    position: relative;
+    top: 2em;
+    margin: auto;
+}
+
+.container {
+    top: 12em;
+    background-color: #3D3B40;
+    box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    border:10px solid rgb(250, 57, 57);
+    z-index: 300;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    height: 70vh; 
+}
+
+.updateStudent {
+    position: relative;
+    top: 7em;
+    color: white;
+    z-index: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.changePass {
+    position: relative;
+    z-index: 400;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    top:10em;
+}
+
+#clickable {
+    user-select: none;
+    cursor: pointer;
+    color: rgb(12, 166, 255);
+}
+
+#clickable:hover {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -14px rgba(0, 225, 255, 0.5); /* Adjusted shadow color */
+}
+
+.transBlack {
+    position: fixed;
+    display: none;
+    top: 5em;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.938);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;;;
+}
+
+.transBlack p {
+    padding-top: 1em;
+}
+
+.form {
+    position: relative;
+    top: -6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 400;
+}
+
+.change {
+    width: 8em;
+    height: 2em;
+    position: relative;
+    cursor: pointer;
+    font-size: 1.2em;
+    top: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(14, 212, 14);
+}
+
+.change:hover {
+    box-shadow: 7px 5px 56px -14px #15fd00;
+}
+
+.change:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #15fd00;
+}
+
+.desc{
+    user-select: none;
+}
+.currentPassword {
+    margin: 0 auto;
+    position: relative;
+}
+
+.close {
+    position: relative;
+    top: -3em;
+    font-size: 1em;
+    user-select: none;
+    color: red;
+    cursor: pointer;
+}
+
+.col-md-4 input{
+    padding-top: 1em;
+    height: 70%;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .change {
+        width: 9em;
+        height: 1.3em;
+        position: relative;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-size: 1em;
+        top: -.1em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: rgb(14, 212, 14);
+    }
+    .change2 {
+        top: 1em !important;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: rgb(14, 212, 14);
+    }
+    .circle {
+        position: relative;
+        background-image: url(account.png);
+        background-position: center;
+        width: 8em;
+        height: 8em;
+        top: -1em;
+        border-radius: 50%;
+        -webkit-box-shadow: 0 0 23px 2px #ff0000;
+        -moz-box-shadow: 0 0 23px 2px #ff0000;
+        box-shadow: 0 0 23px 2px #ff0000;
+    }
+    #clickable {
+        font-size: .7em;
+        user-select: none;
+        cursor: pointer;
+        color: rgb(12, 166, 255);
+    }
+    .changePass {
+        position: relative;
+        z-index: 400;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        top:9em;
+    }
+    .container {
+        top: 11em;
+        background-color: #3D3B40;
+        box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+        border:10px solid rgb(250, 57, 57);
+        z-index: 300;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 80%;
+        height: 75vh; 
+    }
+    .updateStudent {
+        position: relative;
+        top: .5em;
+        color: white;
+        z-index: 300;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+  }

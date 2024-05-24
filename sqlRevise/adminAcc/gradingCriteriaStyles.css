@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.gray {
+    position: relative;
+    margin: auto;
+    top: 15em;
+    width: 80em;
+    height: 40em;
+    z-index: 2;
+}
+
+.transBg{
+    z-index: 1;
+    background-color: #fffbfb7c;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.abs {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.abs img {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.sub {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    top: 8em;
+    margin-left: auto;
+}
+
+.subTitle {
+    text-align: center;
+    color: black;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.gradesTable {
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    margin: 0 auto;
+    width: 93%;
+    top: -2em;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+    box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    border:10px solid rgb(250, 57, 57);
+}
+
+th {
+    color: white;
+    background-color: #3D3B40;
+    font-size: 2em;
+    border-bottom-width: 20px;
+    border:solid rgb(250, 57, 57);
+    height: 2em;
+}
+
+table tr td{ 
+    border-left: 2px solid rgb(250, 57, 57);
+    border-right: 2px solid rgb(250, 57, 57);
+    border-bottom: 2px solid rgb(250, 57, 57);
+    border-top: 2px solid rgb(250, 57, 57);
+}
+
+table, td {
+    background-color: #3D3B40;
+    font-size: 1.1em;
+}
+
+td {
+    font-weight: bold;
+    height: 3em;
+}

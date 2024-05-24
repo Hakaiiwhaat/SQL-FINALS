@@ -1,0 +1,115 @@
+.welcome {
+    z-index: 200;
+    position: relative;
+    width: fit-content;
+    height: 20em;
+    margin: auto;
+    top: 16em;
+}
+
+.welc {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    position: relative;
+    font-size: 3em;
+    margin: auto;
+}
+
+.row form {
+    top: 19em;
+    position: fixed;
+    width: fit-content;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 300;
+    display: flex;
+    align-items: center;
+}
+
+.row input {
+    width: 15em;
+    border:3px solid rgb(250, 57, 57);
+}
+
+.row button {
+    background-color: rgb(250, 57, 57);
+    color: white;
+}
+
+.table-responsive {
+    position: relative;
+    top: 5em !important;
+    height: 120vh !important;
+    overflow-y: auto;
+}
+
+#secTable {
+    z-index: 200;
+    width: 20em;
+    border: 1px solid black;
+    position: relative;
+    color: white;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: #3D3B40;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    top: 1em;
+    border-width: 2em;
+    border:10px solid rgb(250, 57, 57);
+}
+#secTable th {
+    height: 3em;
+    font-size: 1.2em;
+}
+#secTable td {
+    height: 2em;
+}
+
+#secTable td, th {
+    width: 15em;
+    border:solid rgb(250, 57, 57);
+}
+#secTable a {
+    color: inherit;
+}
+
+@media screen and (max-width: 400px) {
+    #secTable {
+        z-index: 200;
+        width: 80vw;
+        border: 1px solid black;
+        position: relative;
+        color: white;
+        margin: auto;
+        text-align: center;
+        border-collapse: collapse;
+        background-color: #3D3B40;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+        top: -7em;
+        border-width: 2em;
+        border:10px solid rgb(250, 57, 57);
+    }
+
+    .welcome {
+        top: 8em !important;
+    }
+    .row form {
+        top: 15em;
+        position: sticky;
+        width: fit-content;
+        margin-top: -12em !important;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 300;
+        display: flex;
+        align-items: center;
+    }
+}

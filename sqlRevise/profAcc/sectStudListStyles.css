@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.welcome {
+    position: relative !important;
+    width: fit-content !important;
+}
+
+.row {
+    position: relative;
+    top: -7em;
+}
+
+.row form {
+    position: sticky;
+    width: fit-content;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 300;
+    display: flex;
+    align-items: center;
+}
+
+.row input {
+    width: 15em;
+    border:3px solid rgb(250, 57, 57);
+}
+
+.row button {
+    background-color: rgb(250, 57, 57);
+    color: white;
+}
+
+
+.table-responsive {
+    position: relative;
+    top: 5em !important;
+    height: 120vh !important;
+    overflow-y: auto;
+}
+
+#studTable {
+    z-index: 300;
+    width: 80vw;
+    border: 1px solid black;
+    position: relative;
+    color: white;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: #3D3B40;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    top: -2em;
+    border:10px solid rgb(250, 57, 57);
+    margin-bottom: 10em;
+}
+#studTable th {
+    font-size: 95%;
+    height: 3em;
+    border:2px solid rgb(250, 57, 57);
+    padding: 5px;
+}
+#studTable td { 
+    height: 2em;
+}
+
+#studTable tr td{ 
+    border:2px solid rgb(250, 57, 57);
+}
+
+#studTable tr {
+    cursor: pointer;
+}
+
+#studTable td, th {
+    width: 15em;
+    border:solid rgb(250, 57, 57);
+}
+
+#studTable tr.highlighted td {
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.left {
+    text-align: left;
+    padding-left: 1em;
+}
+
+.modal {
+    z-index: 300 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    --bs-modal-bg: #3D3B40 !important;
+    color: white;
+    top: 6em !important;
+    width: 100vw !important;
+}
+
+.modal-content {
+    border: 5px solid rgb(255, 255, 255) !important;
+    width: 100vw !important;
+}
+
+#studentDetails p{
+    font-size: 1em;
+}
+
+@media screen and (max-width: 400px) {
+
+    .welcome {
+        top: 8em !important;
+    }
+    .row {
+        position: relative;
+        top: -8em !important;
+    }
+    #studTable {
+        z-index: 300;
+        width: 80vw;
+        border: 1px solid black;
+        position: relative;
+        color: white;
+        margin: auto;
+        text-align: center;
+        border-collapse: collapse;
+        background-color: #3D3B40;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+        top: -2em;
+        border:10px solid rgb(250, 57, 57);
+        margin-bottom: 10em;
+    }
+}

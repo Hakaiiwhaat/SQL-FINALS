@@ -1,0 +1,198 @@
+body {
+    overflow-y: auto;
+    margin: 0;
+}
+
+.welcome {
+    z-index: 200;
+    position: relative;
+    width: 100%;
+    height: 20em;
+    margin: auto;
+    margin-left: auto;
+    align-items: center;
+    top: 11em;
+}
+
+.welc {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+}  
+
+.table-responsive {
+    position: relative;
+    top: 5em !important;
+    height: 120vh !important;
+    overflow-y: auto;
+}
+
+.row {
+    position: relative;
+    top: -2em;
+}
+
+
+.row form {
+    width: fit-content;
+    margin-top: -2em;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 300;
+    display: flex;
+    align-items: center;
+}
+
+.row input {
+    width: 15em;
+    border:3px solid rgb(250, 57, 57);
+}
+
+.row button {
+    background-color: rgb(250, 57, 57);
+    color: white;
+}
+#studTable {
+    z-index: 400;
+    width: 85vw;
+    position: relative;
+    color: white;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: #3D3B40;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    top: 5em;
+    border:10px solid rgb(250, 57, 57);
+    margin-bottom: 10em;
+}
+#studTable th {
+    height: 3em;
+    font-size: 1.2em;
+    border:2px solid rgb(250, 57, 57);
+}
+#studTable td {
+    height: 2em;
+}
+
+#studTable td, th {
+    width: 15em;
+    border:2px solid rgb(250, 57, 57);
+}
+
+#studTable tr.highlighted td {
+    border: 5px solid rgb(255, 255, 255);
+}
+#studTable tr {
+    cursor: pointer;
+}
+#inputGrade {
+    width: 5em;
+}
+
+#retrieveGradesForm {
+    z-index: 200;
+    position: relative;
+    width: 100%;
+    padding-bottom: 6em;
+    height: 7em;
+    justify-content: center;
+}
+
+
+#retrieveGradesForm td {
+    vertical-align: middle;
+    border: 0px;
+}
+
+#retrieveGradesForm tr {
+    width: 100%;
+    vertical-align: middle;
+    border: 0px;
+}
+
+
+
+.retrieveButton {
+    border-radius: 5px;
+    background: #15fd00;
+    border: none;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    color: black;
+    font-size: 1.5em;
+    width: 8em;
+    height: 2em;
+}
+.left {
+    text-align: left;
+    padding-left: 1em;
+}
+
+
+.retrieveButton:hover {
+    box-shadow: 7px 5px 56px -14px #15fd00;
+}
+
+.retrieveButton:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #15fd00;
+}
+
+
+@media screen and (max-width: 400px) {
+    .welcome {
+        top: 8em !important;
+    }
+    .row form {
+        position: sticky;
+        width: fit-content;
+        margin-top: -12em !important;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 300;
+        display: flex;
+        align-items: center;
+    }
+    #studTable {
+        font-size: .8em;
+    }
+    #studTable th {
+        font-size:1em;
+    }
+    .retrieveButton {
+        border-radius: 5px;
+        background: #15fd00;
+        border: none;
+        font-family: inherit;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.4s;
+        color: black;
+        font-size: 1em;
+        width: 8em;
+        height: 2em;
+    }
+    #studTable {
+        z-index: 400;
+        width: 80vw;
+        position: relative;
+        color: white;
+        margin: auto;
+        text-align: center;
+        border-collapse: collapse;
+        background-color: #3D3B40;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+        top: 1em;
+        border:10px solid rgb(250, 57, 57);
+        margin-bottom: 6em;
+    }
+}
